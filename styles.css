@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+}
+
+body {
+    min-height: 100dvh;
+    width: 100dvw;
+    background: linear-gradient(45deg, #d06aff 25%, #ffc5fd 45%, #0caaff8c 100%);
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h4, h5, h6, p {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+hr {
+    border: 1.5px solid #ffffff75;
+    align-self: center;
+    width: 95%;
+    margin: 10px 0px;
+}
+
+.main {
+    display: flex;
+}
+
+.header {
+    width: 100%;
+}
+
+.header h1 {
+    text-align:center;
+    font-weigth: 400;
+}
+
+.recomendations {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.slider {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 560px; 
+    height: 315px;
+}
