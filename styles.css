@@ -59,7 +59,7 @@ body {
 .recomendacao {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 88%;
     height: 40dvh;
     gap: 1em;
@@ -91,7 +91,7 @@ body {
 }
 
 .thumbnail {
-    width: 50%;
+    width: 40%;
     height: 100%
 }
 
